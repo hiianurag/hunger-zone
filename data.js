@@ -340,6 +340,7 @@ const BUSINESS = {
   delivery: {
     freeWithin: "5 KM",
     minOrder:   300,
+    deliveryFeeBelowMin: 50,
   },
   offers: [
     {
@@ -351,10 +352,10 @@ const BUSINESS = {
     },
     {
       icon:     "🚚",
-      title:    "Free Home Delivery",
+      title:    "Home Delivery Service",
       subtitle: "Within 5 KM radius",
-      desc:     "Free delivery on all orders above ₹300 within a 5 KM radius. Order via WhatsApp for fastest service.",
-      badge:    "MIN ₹300",
+      desc:     "Free delivery on all orders above ₹300 within a 5 KM radius. A delivery charge of ₹50 applies for orders under ₹300.",
+      badge:    "FREE OVER ₹300",
     },
     {
       icon:     "🍹",
